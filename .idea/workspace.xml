@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="318ca975-fdb7-4cc9-8c6c-5f7d53be5915" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_40_bin.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ModificandoBasesDeDatos.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ConsultandoBasesDeDatos.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Practica4.iml" afterPath="$PROJECT_DIR$/Practica4.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ModificandoBasesDeDatos.java" afterPath="$PROJECT_DIR$/src/ModificandoBasesDeDatos.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,26 +28,41 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="ModificandoBasesDeDatos.java" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ModificandoBasesDeDatos.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ModificandoBasesDeDatos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+            <state relative-caret-position="1095">
+              <caret line="80" column="49" lean-forward="true" selection-start-line="80" selection-start-column="49" selection-end-line="80" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1488036286000" expanded="true" signature="1620:1995" ph="CREATE TABLE... actores" />
-                <marker date="1488036286000" expanded="true" signature="2075:2459" ph="CREATE TABLE... directores" />
-                <marker date="1488036286000" expanded="true" signature="2538:2990" ph="CREATE TABLE... peliculas" />
-                <marker date="1488036286000" expanded="true" signature="3076:3449" ph="CREATE TABLE... actorEnPelicula" />
-                <marker date="1488036286000" expanded="true" signature="3764:4591" ph="INSERT IGNOR... actores" />
-                <marker date="1488036286000" expanded="true" signature="4672:5336" ph="INSERT IGNOR... directores" />
-                <marker date="1488036286000" expanded="true" signature="5416:6243" ph="INSERT IGNOR... peliculas" />
-                <marker date="1488036286000" expanded="true" signature="6329:7096" ph="INSERT IGNOR... actorEnPelicula" />
-                <marker date="1488036286000" expanded="true" signature="9749:9822" ph="INSERT IGNOR... actores" />
-                <marker date="1488036286000" expanded="true" signature="11333:11412" ph="INSERT IGNOR... directores" />
-                <marker date="1488036286000" expanded="true" signature="12882:12967" ph="INSERT IGNOR... peliculas" />
-                <marker date="1488036286000" expanded="true" signature="14009:14079" ph="INSERT IGNOR... actorEnPelicula" />
+                <marker date="1488228397000" expanded="true" signature="1620:1995" ph="CREATE TABLE... actores" />
+                <marker date="1488228397000" expanded="true" signature="2075:2459" ph="CREATE TABLE... directores" />
+                <marker date="1488228397000" expanded="true" signature="2538:2818" ph="CREATE TABLE... peliculas" />
+                <marker date="1488228397000" expanded="true" signature="2538:2943" ph="CREATE TABLE... peliculas" />
+                <marker date="1488228397000" expanded="true" signature="3029:3193" ph="CREATE TABLE... actorEnPelicula" />
+                <marker date="1488228397000" expanded="true" signature="3029:3402" ph="CREATE TABLE... actorEnPelicula" />
+                <marker date="1488228397000" expanded="true" signature="3717:4544" ph="INSERT IGNOR... actores" />
+                <marker date="1488228397000" expanded="true" signature="4625:5289" ph="INSERT IGNOR... directores" />
+                <marker date="1488228397000" expanded="true" signature="5369:6196" ph="INSERT IGNOR... peliculas" />
+                <marker date="1488228397000" expanded="true" signature="6282:7049" ph="INSERT IGNOR... actorEnPelicula" />
+                <marker date="1488228397000" expanded="true" signature="9702:9816" ph="INSERT IGNOR... actores" />
+                <marker date="1488228397000" expanded="true" signature="11327:11447" ph="INSERT IGNOR... directores" />
+                <marker date="1488228397000" expanded="true" signature="12917:13043" ph="INSERT IGNOR... peliculas" />
+                <marker date="1488228397000" expanded="true" signature="14085:14196" ph="INSERT IGNOR... actorEnPelicula" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConsultandoBasesDeDatos.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ConsultandoBasesDeDatos.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="765">
+              <caret line="90" column="1" lean-forward="false" selection-start-line="90" selection-start-column="1" selection-end-line="90" selection-end-column="1" />
+              <folding>
+                <marker date="1488229817000" expanded="true" signature="2180:2201" ph="SELECT * FRO... actores" />
+                <marker date="1488229817000" expanded="true" signature="2762:2785" ph="SELECT * FRO... peliculas" />
               </folding>
             </state>
           </provider>
@@ -76,7 +88,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="/MySQL Fragment (ModificandoBasesDeDatos.java:3075).sql" />
+        <option value="/MySQL Fragment (ConsultandoBasesDeDatos.java:2086).sql" />
+        <option value="/MySQL Fragment (ConsultandoBasesDeDatos.java:2176).sql" />
+        <option value="/MySQL Fragment (ConsultandoBasesDeDatos.java:2591).sql" />
         <option value="$PROJECT_DIR$/src/ModificandoBasesDeDatos.java" />
+        <option value="$PROJECT_DIR$/src/ConsultandoBasesDeDatos.java" />
       </list>
     </option>
   </component>
@@ -106,6 +123,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -144,29 +164,26 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="FullScreen" value="true" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="FullScreen" value="true" />
   </component>
-  <component name="RunManager" selected="Application.ModificandoBasesDeDatos">
+  <component name="RunManager" selected="Application.ConsultandoBasesDeDatos">
     <configuration default="false" name="ModificandoBasesDeDatos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="ModificandoBasesDeDatos" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -413,6 +430,7 @@
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="true" />
       <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -534,6 +552,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -549,8 +573,24 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Application.ModificandoBasesDeDatos" />
+    <configuration default="false" name="ConsultandoBasesDeDatos" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="ConsultandoBasesDeDatos" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Practica4" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Application.ConsultandoBasesDeDatos" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ModificandoBasesDeDatos" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -568,46 +608,57 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1488035490119</updated>
-      <workItem from="1488035491545" duration="918000" />
+      <workItem from="1488035491545" duration="2339000" />
+      <workItem from="1488147035404" duration="4823000" />
+      <workItem from="1488198933730" duration="2638000" />
+      <workItem from="1488227488648" duration="1835000" />
     </task>
+    <task id="LOCAL-00001" summary="Exercises 1 - 5 done.">
+      <created>1488036658554</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1488036658555</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="918000" />
+    <option name="totallyTimeSpent" value="11635000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.103960395" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19702971" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.103960395" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09904154" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -615,6 +666,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Exercises 1 - 5 done." />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercises 1 - 5 done." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -625,32 +680,159 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8a9be4a7-c3b4-4404-9966-332aefd962e3/console.sql">
+    <entry file="file://$PROJECT_DIR$/src/ModificandoBasesDeDatos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="8" selection-end-column="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1488228397000" expanded="true" signature="1620:1995" ph="CREATE TABLE... actores" />
+            <marker date="1488228397000" expanded="true" signature="2075:2459" ph="CREATE TABLE... directores" />
+            <marker date="1488228397000" expanded="true" signature="2538:2818" ph="CREATE TABLE... peliculas" />
+            <marker date="1488228397000" expanded="true" signature="2538:2943" ph="CREATE TABLE... peliculas" />
+            <marker date="1488228397000" expanded="true" signature="3029:3193" ph="CREATE TABLE... actorEnPelicula" />
+            <marker date="1488228397000" expanded="true" signature="3029:3402" ph="CREATE TABLE... actorEnPelicula" />
+            <marker date="1488228397000" expanded="true" signature="3717:4544" ph="INSERT IGNOR... actores" />
+            <marker date="1488228397000" expanded="true" signature="4625:5289" ph="INSERT IGNOR... directores" />
+            <marker date="1488228397000" expanded="true" signature="5369:6196" ph="INSERT IGNOR... peliculas" />
+            <marker date="1488228397000" expanded="true" signature="6282:7049" ph="INSERT IGNOR... actorEnPelicula" />
+            <marker date="1488228397000" expanded="true" signature="9702:9816" ph="INSERT IGNOR... actores" />
+            <marker date="1488228397000" expanded="true" signature="11327:11447" ph="INSERT IGNOR... directores" />
+            <marker date="1488228397000" expanded="true" signature="12917:13043" ph="INSERT IGNOR... peliculas" />
+            <marker date="1488228397000" expanded="true" signature="14085:14196" ph="INSERT IGNOR... actorEnPelicula" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ConsultandoBasesDeDatos.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1488229817000" expanded="true" signature="2180:2201" ph="SELECT * FRO... actores" />
+            <marker date="1488229817000" expanded="true" signature="2762:2785" ph="SELECT * FRO... peliculas" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ModificandoBasesDeDatos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        <state relative-caret-position="1140">
+          <caret line="76" column="33" lean-forward="false" selection-start-line="76" selection-start-column="33" selection-end-line="76" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1488036286000" expanded="true" signature="1620:1995" ph="CREATE TABLE... actores" />
-            <marker date="1488036286000" expanded="true" signature="2075:2459" ph="CREATE TABLE... directores" />
-            <marker date="1488036286000" expanded="true" signature="2538:2990" ph="CREATE TABLE... peliculas" />
-            <marker date="1488036286000" expanded="true" signature="3076:3449" ph="CREATE TABLE... actorEnPelicula" />
-            <marker date="1488036286000" expanded="true" signature="3764:4591" ph="INSERT IGNOR... actores" />
-            <marker date="1488036286000" expanded="true" signature="4672:5336" ph="INSERT IGNOR... directores" />
-            <marker date="1488036286000" expanded="true" signature="5416:6243" ph="INSERT IGNOR... peliculas" />
-            <marker date="1488036286000" expanded="true" signature="6329:7096" ph="INSERT IGNOR... actorEnPelicula" />
-            <marker date="1488036286000" expanded="true" signature="9749:9822" ph="INSERT IGNOR... actores" />
-            <marker date="1488036286000" expanded="true" signature="11333:11412" ph="INSERT IGNOR... directores" />
-            <marker date="1488036286000" expanded="true" signature="12882:12967" ph="INSERT IGNOR... peliculas" />
-            <marker date="1488036286000" expanded="true" signature="14009:14079" ph="INSERT IGNOR... actorEnPelicula" />
+            <marker date="1488228397000" expanded="true" signature="1620:1995" ph="CREATE TABLE... actores" />
+            <marker date="1488228397000" expanded="true" signature="2075:2459" ph="CREATE TABLE... directores" />
+            <marker date="1488228397000" expanded="true" signature="2538:2818" ph="CREATE TABLE... peliculas" />
+            <marker date="1488228397000" expanded="true" signature="2538:2943" ph="CREATE TABLE... peliculas" />
+            <marker date="1488228397000" expanded="true" signature="3029:3193" ph="CREATE TABLE... actorEnPelicula" />
+            <marker date="1488228397000" expanded="true" signature="3029:3402" ph="CREATE TABLE... actorEnPelicula" />
+            <marker date="1488228397000" expanded="true" signature="3717:4544" ph="INSERT IGNOR... actores" />
+            <marker date="1488228397000" expanded="true" signature="4625:5289" ph="INSERT IGNOR... directores" />
+            <marker date="1488228397000" expanded="true" signature="5369:6196" ph="INSERT IGNOR... peliculas" />
+            <marker date="1488228397000" expanded="true" signature="6282:7049" ph="INSERT IGNOR... actorEnPelicula" />
+            <marker date="1488228397000" expanded="true" signature="9702:9816" ph="INSERT IGNOR... actores" />
+            <marker date="1488228397000" expanded="true" signature="11327:11447" ph="INSERT IGNOR... directores" />
+            <marker date="1488228397000" expanded="true" signature="12917:13043" ph="INSERT IGNOR... peliculas" />
+            <marker date="1488228397000" expanded="true" signature="14085:14196" ph="INSERT IGNOR... actorEnPelicula" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ConsultandoBasesDeDatos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1488229817000" expanded="true" signature="2180:2201" ph="SELECT * FRO... actores" />
+            <marker date="1488229817000" expanded="true" signature="2762:2785" ph="SELECT * FRO... peliculas" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ModificandoBasesDeDatos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="88" lean-forward="true" selection-start-line="18" selection-start-column="88" selection-end-line="18" selection-end-column="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1488228397000" expanded="true" signature="1620:1995" ph="CREATE TABLE... actores" />
+            <marker date="1488228397000" expanded="true" signature="2075:2459" ph="CREATE TABLE... directores" />
+            <marker date="1488228397000" expanded="true" signature="2538:2818" ph="CREATE TABLE... peliculas" />
+            <marker date="1488228397000" expanded="true" signature="2538:2943" ph="CREATE TABLE... peliculas" />
+            <marker date="1488228397000" expanded="true" signature="3029:3193" ph="CREATE TABLE... actorEnPelicula" />
+            <marker date="1488228397000" expanded="true" signature="3029:3402" ph="CREATE TABLE... actorEnPelicula" />
+            <marker date="1488228397000" expanded="true" signature="3717:4544" ph="INSERT IGNOR... actores" />
+            <marker date="1488228397000" expanded="true" signature="4625:5289" ph="INSERT IGNOR... directores" />
+            <marker date="1488228397000" expanded="true" signature="5369:6196" ph="INSERT IGNOR... peliculas" />
+            <marker date="1488228397000" expanded="true" signature="6282:7049" ph="INSERT IGNOR... actorEnPelicula" />
+            <marker date="1488228397000" expanded="true" signature="9702:9816" ph="INSERT IGNOR... actores" />
+            <marker date="1488228397000" expanded="true" signature="11327:11447" ph="INSERT IGNOR... directores" />
+            <marker date="1488228397000" expanded="true" signature="12917:13043" ph="INSERT IGNOR... peliculas" />
+            <marker date="1488228397000" expanded="true" signature="14085:14196" ph="INSERT IGNOR... actorEnPelicula" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ConsultandoBasesDeDatos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1488229817000" expanded="true" signature="2180:2201" ph="SELECT * FRO... actores" />
+            <marker date="1488229817000" expanded="true" signature="2762:2785" ph="SELECT * FRO... peliculas" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8a9be4a7-c3b4-4404-9966-332aefd962e3/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ModificandoBasesDeDatos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1095">
+          <caret line="80" column="49" lean-forward="true" selection-start-line="80" selection-start-column="49" selection-end-line="80" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1488228397000" expanded="true" signature="1620:1995" ph="CREATE TABLE... actores" />
+            <marker date="1488228397000" expanded="true" signature="2075:2459" ph="CREATE TABLE... directores" />
+            <marker date="1488228397000" expanded="true" signature="2538:2818" ph="CREATE TABLE... peliculas" />
+            <marker date="1488228397000" expanded="true" signature="2538:2943" ph="CREATE TABLE... peliculas" />
+            <marker date="1488228397000" expanded="true" signature="3029:3193" ph="CREATE TABLE... actorEnPelicula" />
+            <marker date="1488228397000" expanded="true" signature="3029:3402" ph="CREATE TABLE... actorEnPelicula" />
+            <marker date="1488228397000" expanded="true" signature="3717:4544" ph="INSERT IGNOR... actores" />
+            <marker date="1488228397000" expanded="true" signature="4625:5289" ph="INSERT IGNOR... directores" />
+            <marker date="1488228397000" expanded="true" signature="5369:6196" ph="INSERT IGNOR... peliculas" />
+            <marker date="1488228397000" expanded="true" signature="6282:7049" ph="INSERT IGNOR... actorEnPelicula" />
+            <marker date="1488228397000" expanded="true" signature="9702:9816" ph="INSERT IGNOR... actores" />
+            <marker date="1488228397000" expanded="true" signature="11327:11447" ph="INSERT IGNOR... directores" />
+            <marker date="1488228397000" expanded="true" signature="12917:13043" ph="INSERT IGNOR... peliculas" />
+            <marker date="1488228397000" expanded="true" signature="14085:14196" ph="INSERT IGNOR... actorEnPelicula" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ConsultandoBasesDeDatos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="90" column="1" lean-forward="false" selection-start-line="90" selection-start-column="1" selection-end-line="90" selection-end-column="1" />
+          <folding>
+            <marker date="1488229817000" expanded="true" signature="2180:2201" ph="SELECT * FRO... actores" />
+            <marker date="1488229817000" expanded="true" signature="2762:2785" ph="SELECT * FRO... peliculas" />
           </folding>
         </state>
       </provider>

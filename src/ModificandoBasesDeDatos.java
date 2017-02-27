@@ -61,11 +61,10 @@ public class ModificandoBasesDeDatos {
         //language=MySQL
         String tablePeliculas =
                 "CREATE TABLE IF NOT EXISTS peliculas(\n" +
-                        "  ID_pelicula INTEGER NOT NULL,\n" +
+                        "  ID_pelicula INTEGER NOT NULL PRIMARY KEY,\n" +
                         "  IMDB INTEGER,\n" +
                         "  ID_director INTEGER NOT NULL,\n" +
                         "  titulo VARCHAR(50) NOT NULL,\n" +
-                        "  PRIMARY KEY (ID_pelicula),\n" +
                         "  FOREIGN KEY (ID_director) REFERENCES directores(ID_director)\n" +
                         ");";
 
@@ -204,7 +203,8 @@ public class ModificandoBasesDeDatos {
                             imdb_actor = Integer.parseInt(keyboard.nextLine());
 
                             //Insert into the actores's table.
-                            preparedStatement = connection.prepareStatement("INSERT IGNORE INTO actores(ID_actor, IMDB, nombre, edad) VALUES (?,?,?,?)");
+                            preparedStatement = connection.prepareStatement("INSERT IGNORE INTO " +
+                                    "actores(ID_actor, IMDB, nombre, edad) VALUES (?,?,?,?)");
                             preparedStatement.setInt(1,id_actor);
                             preparedStatement.setInt(2,imdb_actor);
                             preparedStatement.setString(3,nombre_actor);
@@ -229,7 +229,8 @@ public class ModificandoBasesDeDatos {
                             imdb_director = Integer.parseInt(keyboard.nextLine());
 
                             //Insert into the directores's table.
-                            preparedStatement = connection.prepareStatement("INSERT IGNORE INTO directores(ID_director, IMDB, nombre, edad) VALUES (?,?,?,?)");
+                            preparedStatement = connection.prepareStatement("INSERT IGNORE INTO " +
+                                    "directores(ID_director, IMDB, nombre, edad) VALUES (?,?,?,?)");
                             preparedStatement.setInt(1,id_director);
                             preparedStatement.setInt(2,imdb_director);
                             preparedStatement.setString(3,nombre_director);
@@ -253,7 +254,8 @@ public class ModificandoBasesDeDatos {
                             id_director = Integer.parseInt(keyboard.nextLine());
 
                             //Insert into the peliculas's table.
-                            preparedStatement = connection.prepareStatement("INSERT IGNORE INTO peliculas(ID_pelicula, IMDB, ID_director, titulo) VALUES (?,?,?,?)");
+                            preparedStatement = connection.prepareStatement("INSERT IGNORE INTO " +
+                                    "peliculas(ID_pelicula, IMDB, ID_director, titulo) VALUES (?,?,?,?)");
                             preparedStatement.setInt(1,id_pelicula);
                             preparedStatement.setInt(2,imdb_pelicula);
                             preparedStatement.setInt(3,id_director);
@@ -269,7 +271,8 @@ public class ModificandoBasesDeDatos {
                             id_actor = Integer.parseInt(keyboard.nextLine());
 
                             //Insert into the actoresEnPeliculas's table.
-                            preparedStatement = connection.prepareStatement("INSERT IGNORE INTO actorEnPelicula(ID_actor, ID_pelicula) VALUES (?,?)");
+                            preparedStatement = connection.prepareStatement("INSERT IGNORE INTO " +
+                                    "actorEnPelicula(ID_actor, ID_pelicula) VALUES (?,?)");
                             preparedStatement.setInt(1,id_actor);
                             preparedStatement.setInt(2,id_pelicula);
                             preparedStatement.executeUpdate();
@@ -286,3 +289,27 @@ public class ModificandoBasesDeDatos {
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
