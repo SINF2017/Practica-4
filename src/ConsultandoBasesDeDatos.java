@@ -71,7 +71,6 @@ public class ConsultandoBasesDeDatos {
                     ", edad: " + resultSet.getInt("edad"));
         }
 
-
         //Put all film's titles in uppercase.
         //language=MySQL
         String uppercase = "SELECT * FROM peliculas";
