@@ -71,8 +71,8 @@ public class ConsultandoBasesDeDatos {
                     ", edad: " + resultSet.getInt("edad"));
         }
 
-        //Put all film's titles in uppercase.
-        //language=MySQL
+        // Put all film's titles in uppercase.
+        // language=MySQL
         String uppercase = "SELECT * FROM peliculas";
         resultSet = statement.executeQuery(uppercase);
         while (resultSet.next()){
@@ -86,5 +86,6 @@ public class ConsultandoBasesDeDatos {
         resultSet.close();
         connection.close();
         statement.close();
+        System.out.println("Database closed correctly!");
     }
 }

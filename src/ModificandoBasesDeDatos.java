@@ -38,7 +38,7 @@ public class ModificandoBasesDeDatos {
         statement = connection.createStatement();
 
         // Create tables
-        //language=MySQL
+        // language=MySQL
         String tableActores =
                 "CREATE TABLE IF NOT EXISTS actores(\n" +
                         "  ID_actor INTEGER NOT NULL,\n" +
@@ -48,7 +48,7 @@ public class ModificandoBasesDeDatos {
                         "  PRIMARY KEY (ID_actor)\n" +
                         ");";
 
-        //language=MySQL
+        // language=MySQL
         String tableDirectores =
                 "CREATE TABLE IF NOT EXISTS directores(\n" +
                         "  ID_director INTEGER NOT NULL,\n" +
@@ -58,7 +58,7 @@ public class ModificandoBasesDeDatos {
                         "  PRIMARY KEY (ID_director)\n" +
                         ");";
 
-        //language=MySQL
+        // language=MySQL
         String tablePeliculas =
                 "CREATE TABLE IF NOT EXISTS peliculas(\n" +
                         "  ID_pelicula INTEGER NOT NULL PRIMARY KEY,\n" +
@@ -68,7 +68,7 @@ public class ModificandoBasesDeDatos {
                         "  FOREIGN KEY (ID_director) REFERENCES directores(ID_director)\n" +
                         ");";
 
-        //language=MySQL
+        // language=MySQL
         String tableActorEnPeliculas =
                 "CREATE TABLE IF NOT EXISTS actorEnPelicula(\n" +
                         "  ID_actor INTEGER NOT NULL,\n" +
@@ -83,7 +83,7 @@ public class ModificandoBasesDeDatos {
         statement.executeUpdate(tableActorEnPeliculas);
 
         // Insert into the tables
-        //language=MySQL
+        // language=MySQL
         String insertActores =
                 "INSERT IGNORE INTO actores(ID_actor,IMDB,nombre,edad) VALUES\n" +
                         "  (0,0000206,'Keanu Reeves',52),\n" +
@@ -99,7 +99,7 @@ public class ModificandoBasesDeDatos {
                         "  (10,0000402,'Carrie Fisher',61),\n" +
                         "  (11,0000115,'Nicolas Cage',53);";
 
-        //language=MySQL
+        // language=MySQL
         String insertDirectores =
                 "INSERT IGNORE INTO directores(ID_director,IMDB,nombre,edad) VALUES\n" +
                         "  (0,0000338,'Francis Ford Coppola',77),\n" +
@@ -112,7 +112,7 @@ public class ModificandoBasesDeDatos {
                         "  (7,0009190,'J.J. Abrams',50),\n" +
                         "  (8,0327944,'Alejandro G. Iñárritu',53);";
 
-        //language=MySQL
+        // language=MySQL
         String insertPeliculas =
                 "INSERT IGNORE INTO peliculas(ID_pelicula,IMDB,ID_director,titulo) VALUES\n" +
                         "  (0,0068646,0,'El Padrino'),\n" +
@@ -127,7 +127,7 @@ public class ModificandoBasesDeDatos {
                         "  (9,0482571,3,'El truco final'),\n" +
                         "  (10,1663202,8,'The Revenant');";
 
-        //language=MySQL
+        // language=MySQL
         String insertActorEnPelicula =
                 "INSERT IGNORE INTO actorEnPelicula(ID_actor,ID_pelicula) VALUES\n" +
                         "  (0,4),\n" +
@@ -156,8 +156,9 @@ public class ModificandoBasesDeDatos {
 
         menu(connection);
 
-        // Close database connection
+        // Clean the environment:
         connection.close();
+        statement.close();
         System.out.println("Database closed correctly!");
     }
 
